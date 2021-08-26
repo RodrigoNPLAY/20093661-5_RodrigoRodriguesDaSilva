@@ -24,9 +24,18 @@
                     <li><a href="#localizacao">Localização</a></li>
                 </ul>
             </div>
+            <img src="images/fundo.png">
+            <div>
+
+            </div>
         </section>
 
-        <section id="produtos"></section>
+        <section id="produtos">
+            <div>
+                <a href="produtos.php">Link</a>
+            </div>
+            
+        </section>
         <section id="quem_somos"></section>
         <section id="contato"></section>
         <section id="localizacao"></section>

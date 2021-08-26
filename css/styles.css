@@ -53,18 +53,28 @@ li a:hover {
     min-height: 100vh;
   }
 
+   img {
+    max-width:90%;
+    max-height:90%;
+    margin: auto;
+    width: auto;
+    height: auto;
+    display: flex;
+    align-items: center;
+}
+
   #home{
-    background: orchid;
+    background: rgb(255, 255, 255, 0.877);
   }
   #produtos{
-    background: rgb(135, 112, 218);
+    background: rgb(253, 253, 253);
   }
   #quem_somos{
-    background: rgb(116, 218, 112);
+    background: rgb(239, 245, 239);
   }
   #contato{
-    background: rgb(218, 216, 112);
+    background: rgb(252, 252, 252);
   }
   #localizacao{
-    background: rgb(218, 112, 153);
+    background: rgb(243, 237, 240);
   }
