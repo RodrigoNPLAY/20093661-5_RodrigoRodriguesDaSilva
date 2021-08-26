@@ -14,19 +14,25 @@
 </head>
 
 <body>
-    <article>
-        <header>
+        <section id="home">
             <div>
-                <ul>
-                    <li><a href="#index.php">Home</a></li>
-                    <li><a href="#">Quem somos</a></li>
-                    <li><a href="#">Chef</a></li>
-                    <li><a href="#">Menu</a></li>
-                    <li><a href="#">Contact</a></li>
+                <ul id="menu">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#produtos">Produtos</a></li>
+                    <li><a href="#quem_somos">Quem Somos</a></li>
+                    <li><a href="#contato">Contato</a></li>
+                    <li><a href="#localizacao">Localização</a></li>
                 </ul>
             </div>
-        </header>
-    </article>
+        </section>
+
+        <section id="produtos"></section>
+        <section id="quem_somos"></section>
+        <section id="contato"></section>
+        <section id="localizacao"></section>
+
+
+
 </body>
 
 </html>

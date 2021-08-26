@@ -37,3 +37,34 @@ ul {
 li a:hover {
     background-color: #111;
   }
+
+  html{
+    scroll-behavior: smooth;
+  }
+
+
+  #menu{
+    display: flex;
+    align-items: center;
+    position: fixed;
+  }
+
+  section{
+    min-height: 100vh;
+  }
+
+  #home{
+    background: orchid;
+  }
+  #produtos{
+    background: rgb(135, 112, 218);
+  }
+  #quem_somos{
+    background: rgb(116, 218, 112);
+  }
+  #contato{
+    background: rgb(218, 216, 112);
+  }
+  #localizacao{
+    background: rgb(218, 112, 153);
+  }
