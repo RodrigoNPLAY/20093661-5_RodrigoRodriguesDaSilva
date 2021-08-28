@@ -11,7 +11,7 @@
 <section id="home">
         <div>
             <ul class="menu">
-                <li class="menu-li"><a href="index.php">Home</a></li>
+                <li class="menu-li"><a href="../index.php">Home</a></li>
                 <li class="menu-li"><a href="../pages/produtos.php">Produtos</a></li>
                 <li class="menu-li"><a href="../pages/quem_somos.php">Quem Somos</a></li>
                 <li class="menu-li"><a href="../pages/contacts.php">Contato</a></li>
