@@ -56,7 +56,7 @@ a{
 
 .produto h4{
   background: rgb(22, 1, 1);
-  color: whitesmoke;
+  color: rgb(255, 255, 255);
   padding: 5px 10px;
 }
 .produtos a{
@@ -112,7 +112,7 @@ a{
 }
 
 .titulo{
-  color: whitesmoke;
+  color: rgb(0, 0, 0);
 }
 
 
@@ -168,4 +168,11 @@ input{
   justify-content: space-around;
   border: whitesmoke;
   margin: 10px;
+}
+
+
+.produto_page h4{
+  background: rgba(88, 0, 0, 0.226);
+  color: rgb(255, 255, 255);
+  padding: 5px 10px;
 }
