@@ -16,3 +16,156 @@
 a{
   text-decoration: none;
 }
+
+.menu {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: rgb(68, 19, 7);
+  
+}
+
+.menu-li {
+  float: left;
+}
+
+.menu-li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.menu-li a:hover:not(.active) {
+  background-color: rgb(31, 3, 3);
+}
+
+.produtos{
+    display: flex;
+    justify-content: space-around;
+}
+
+.produto{
+  border: 1px;
+  margin: 3px;
+  height: 25%;
+  width: 25%;
+}
+
+.produto h4{
+  background: rgb(22, 1, 1);
+  color: whitesmoke;
+  padding: 5px 10px;
+}
+.produtos a{
+  color: whitesmoke;
+}
+.produto img{
+  width: 120px;
+  height: 120px;
+}
+
+a{
+  color: blue;
+}
+
+
+.rodape{
+  text-align: center;
+}
+
+.fundo{
+  width: 50%;
+  height: 50%;
+  display: block;
+}
+
+#produtos{
+  background: rgb(238, 194, 163);
+}
+
+#quem_somos{
+  background: whitesmoke;
+}
+
+#localizacao{
+  background: slategrey;
+  display: inline-block;
+}
+
+#contato{
+  background: rgba(187, 186, 186, 0.247);
+  display: inline-block;
+}
+
+#rodape{
+  background: rgb(59, 27, 4);
+  color: whitesmoke;
+  text-align: center;
+}
+
+
+#contato div{
+  text-align: center;
+}
+
+.titulo{
+  color: whitesmoke;
+}
+
+
+label{
+  padding: 10px;
+}
+
+input{
+  width: 300px;
+  padding: 10px;
+  display: block;
+}
+
+
+.fundos_pages{
+  width: 30%;
+  height: 30%;
+  display: block;
+}
+
+.myMapDiv {
+  width: 1280;
+  height: 720;
+  display: block;
+  margin: 0 auto;
+  text-align:center
+}
+
+
+#contato_page{
+  width: 100%;
+  height: 720px;
+  display: block;
+
+}
+
+.formulario_contato label{
+  width:150px;
+    margin-top: 3px;
+    display:block;
+    float: inline-end;
+    padding:3px;
+}
+
+.formulario_contato input{
+  height:30px; 
+  width:300px; 
+  padding:5px 10px;
+}
+
+.produtos_page{
+  display: inline-block;
+  justify-content: space-around;
+  border: whitesmoke;
+  margin: 10px;
+}
